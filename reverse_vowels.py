@@ -29,7 +29,7 @@ class Solution(object):
         return new_s
 
     # Leetcode best
-    def reverseVowels(self, s):
+    def reverseVowelsLeet(self, s):
         # Convert the input string to a character array.
         word = list(s)
         start = 0

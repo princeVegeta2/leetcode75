@@ -21,7 +21,7 @@ class Solution(object):
         return answers
     
     # Best solution on leetcode
-    def kidsWithCandies(self, candies, extraCandies):
+    def kidsWithCandiesLeet(self, candies, extraCandies):
         # Finds the largest candy element
         max_candies = max(candies)
         

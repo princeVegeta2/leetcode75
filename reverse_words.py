@@ -21,7 +21,7 @@ class Solution(object):
         return new_s
     
     # Leetcode best
-    def reverseWords(self, s):
+    def reverseWordsLeet(self, s):
         """
         :type s: str
         :rtype: str
@@ -30,6 +30,6 @@ class Solution(object):
         Val= New[::-1]
         return ' '.join(Val)
     
-    
+
 sol = Solution()
 print(sol.reverseWords("  hello world  "))

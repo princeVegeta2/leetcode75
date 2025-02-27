@@ -33,7 +33,7 @@ class Solution(object):
 
         return gcd
     
-    def bestSolutionLeetcode(self, str1, str2):
+    def bestSolutionLeetcodeLeet(self, str1, str2):
         # Euclidian algorithm
         if str1 + str2 != str2 + str1:
             # No same pattern

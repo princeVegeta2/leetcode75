@@ -40,7 +40,7 @@ class Solution(object):
         return checker
     
     # Leetcode best
-    def canPlaceFlowers(self, flowerbed, n):
+    def canPlaceFlowersLeet(self, flowerbed, n):
         # Edge case if no flowers need to be planted
         if n == 0:
             return True
