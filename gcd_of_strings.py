@@ -1,4 +1,7 @@
 class Solution(object):
+    # Description:
+    # Return the greatest common divisor of two strings
+    # Example: ABCABCABC, ABC => ABC
     def gcdOfStrings(self, str1, str2):
         """
         :type str1: str

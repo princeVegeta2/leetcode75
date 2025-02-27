@@ -1,4 +1,8 @@
 class Solution(object):
+    # Description
+    # For each element of the array of numbers, check if adding extraCandies to c in candy will result in the largest value in the list
+    # Example:
+    # [2, 3, 5, 1, 3], 3 => [True, True, True, False, True]
     def kidsWithCandies(self, candies, extraCandies):
         """
         :type candies: List[int]

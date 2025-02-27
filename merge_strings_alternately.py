@@ -1,4 +1,7 @@
 class Solution(object):
+    # Description:
+    # Return a string by merging two string alternately
+    # Example: ABC, QRS = AQBRCS
     def mergeAlternately(self, word1, word2):
     
         new_string = ""
