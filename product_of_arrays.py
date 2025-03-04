@@ -3,7 +3,8 @@ class Solution(object):
     # Given an array of integers, find the product of all elements except arr[i] and replace arr[i] with it
     # Example: [1, 2, 3, 4] => [24, 12, 8, 6]
     # Must be O(n) complexity
-    # Disclaimer: I have failed to finish this task using my own logic and python syntax knowledge.
+    # Disclaimer: I have failed to finish this task using my own logic and python syntax knowledge in O(n) time.
+    # I was only able to find a solution with O(n^2) minimum or with using the division sign(which was also prohibited)
     # The solution you are seeing below is the Leetcode solution with most upvotes
     def productExceptSelf(self, nums):
         """
@@ -23,11 +24,8 @@ class Solution(object):
         
         answer = [prefix[i] * suffix[i] for i in range(n)]
 
-        return prefix, suffix, answer 
+        return answer
             
-            
-        
-        return new_list
 
 sol = Solution()
 print(sol.productExceptSelf([1, 2, 3, 4]))
